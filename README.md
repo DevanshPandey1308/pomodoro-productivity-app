@@ -20,21 +20,23 @@ Stay focused and productive by cycling through structured work sessions and time
 
 ## 📁 Project Structure
 
+```
 pomodoro-productivity-app/
 │
-├── main.py # Main Pomodoro logic + Tkinter UI
+├── main.py                  # Main Pomodoro logic + Tkinter UI
 │
-├── tomato.png # Tomato image used in the UI
+├── tomato.png               # Tomato image used in the UI
 │
-├── Output Screenshot/ # UI screenshots
-│ └── output.png
+├── Output Screenshot/       # UI screenshots
+│   └── output.png
 │
-├── .idea/ # Auto-generated IDE metadata
+├── .idea/                   # Auto-generated IDE metadata
 ├── .gitignore
 ├── desktop.ini
 └── README.md
 
----
+```
+
 
 ## ▶️ How to Run
 
