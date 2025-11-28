@@ -1,58 +1,92 @@
-# Pomodoro Productivity App (PMD)
+# Pomodoro Productivity App ⏱️🍅
 
-A clean and simple Pomodoro Timer built using **Python** and **Tkinter**, designed to help maintain focus using the classic 25–5 work/break cycle.  
-The app automatically switches between work sessions, short breaks, and long breaks while visually tracking completed sessions.
+A simple and effective **Pomodoro timer** built with **Python** and **Tkinter**.  
+Stay focused and productive by cycling through structured work sessions and timed breaks using the classic Pomodoro technique.
 
 ---
 
 ## 📌 Features
-- 25-minute work sessions  
-- 5-minute short breaks  
-- 20-minute long break after 4 work cycles  
-- Automatic session transitions  
-- Visual checkmarks for completed sessions  
-- Minimal and distraction-free UI  
+
+- 25‑minute focused **work sessions**  
+- 5‑minute **short breaks**  
+- 20‑minute **long break** after every 4 work sessions  
+- **Automatic** switching between work and break cycles  
+- Clean and minimal **Tkinter GUI**  
+- Visual **checkmarks** for completed work sessions  
+
+---
+
+## 📸 Screenshot
+
+![App Screenshot](./Output Screenshot/your_screenshot.png)
 
 ---
 
 ## 📁 Project Structure
+
 pomodoro-productivity-app/
 │
-├── Output Screenshot/ # App screenshots
-├── .idea/ # Auto-generated IDE config
+├── Output Screenshot/ # UI output images
+├── .idea/ # IDE config (auto-generated)
 ├── .gitignore
-├── desktop.ini
+├── desktop.ini # Windows metadata file
 ├── main.py # Main Pomodoro application
-└── tomato.png # Tomato image used in UI
+└── tomato.png # Tomato image used in the UI
 
 
 ---
 
 ## ▶️ How to Run
 
-### 1. Clone the repository
+1. **Clone the repository**
+
 git clone https://github.com/DevanshPandey1308/pomodoro-productivity-app.git
 cd pomodoro-productivity-app
-2. Run the application
-bash
-Copy code
-python main.py
-No external dependencies are required. Tkinter comes built-in with most Python installations.
 
-⚙️ Customization
-You can modify session durations directly inside main.py:
+text
+
+2. **Run the application**
+
+python main.py
+
+text
+
+No external libraries are required — the app uses Python's built‑in **Tkinter** module.
+
+---
+
+## ⚙️ Customization
+
+You can tweak the Pomodoro cycle durations by editing the constants at the top of `main.py`:
+
 WORK_MIN = 25
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
-You can also change theme colors, fonts, and UI layout within the same file.
-
-🚀 Future Improvements
-- Add sound alerts
-- Add session logging (CSV/Excel)
-- Add customizable settings through UI
-- Add light/dark mode
 
 
-🙌 Acknowledgment
-This project was built as part of my Python learning journey, focusing on improving UI development and timer-based logic using Tkinter.
-If you find this useful or want to contribute improvements, feel free to open an issue or submit a pull request.
+You can also customize:
+
+- **Colors** (theme and highlights)  
+- **Fonts**  
+- **UI layout** (window size, labels, buttons, etc.)
+
+All of these are configurable inside `main.py`.
+
+---
+
+## 🚀 Future Enhancements
+
+Planned improvements:
+
+- Sound notifications for session start/end  
+- Session statistics (CSV/Excel logging)  
+- Customizable timer settings from the UI  
+- Dark/Light theme toggle  
+- Packaging as a standalone `.exe` using PyInstaller  
+
+---
+
+🙌 Acknowledgments
+
+This project is part of my Python development journey — focusing on GUI design, event-driven programming, and clean project structure.
+The Pomodoro method has personally helped improve focus, so building a tool around it was both practical and educational.
