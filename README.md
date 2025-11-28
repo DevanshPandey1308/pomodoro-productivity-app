@@ -14,24 +14,25 @@ Stay focused and productive by cycling through structured work sessions and time
 - Clean and minimal **Tkinter GUI**  
 - Visual **checkmarks** for completed work sessions  
 
----
-
-## 📸 Screenshot
-
-![App Screenshot](./Output Screenshot/your_screenshot.png)
 
 ---
 
 ## 📁 Project Structure
 
+## Project Structure
+
 pomodoro-productivity-app/
 │
-├── Output Screenshot/ # UI output images
-├── .idea/ # IDE config (auto-generated)
+├── main.py                  # Main Pomodoro logic + Tkinter UI
+├── tomato.png               # Tomato image used inside the UI
+│
+├── Output Screenshot/       # App UI screenshots
+│   └── output.png
+│
+├── .idea/                  
 ├── .gitignore
-├── desktop.ini # Windows metadata file
-├── main.py # Main Pomodoro application
-└── tomato.png # Tomato image used in the UI
+├── desktop.ini
+└── README.md
 
 
 ---
