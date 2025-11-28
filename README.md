@@ -17,7 +17,6 @@ Stay focused and productive by cycling through structured work sessions and time
 
 ---
 
-## 📁 Project Structure
 
 ## Project Structure
 
